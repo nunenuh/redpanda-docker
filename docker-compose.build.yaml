@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  'latest':
+    build: ./docker-images/redpanda
+    image: nunenuh/redpanda:latest
+ 
